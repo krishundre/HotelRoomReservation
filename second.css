@@ -1,0 +1,79 @@
+
+
+/* start of book rooming page */
+#book_room_content{
+    /* display: flex; */
+}
+
+#check_in_out{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#check_in_out input{
+    outline: none;
+    border: none;
+    width: 143px;
+    /* background-color: #f4f3f367; */
+    border-radius: 4px;
+    /* padding: 15px 10px; */
+    /* margin-top: 37px; */
+    font-weight: 100;
+    margin: 20px;
+}
+
+#guest{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+
+#no_of_guests{
+    font-weight: 100;
+    /* margin: 20px; */
+}
+
+#no_of_guests select{
+    outline: none;
+    border: none;
+    /* width: 143px; */
+    background-color: #f4f3f325;
+    border-radius: 4px;
+    padding: 15px 10px;
+    /* margin-top: 37px; */
+    font-weight: 100;
+    margin: 20px;
+}
+
+#book_room_content{
+    /* display: flex; */
+}
+
+#book_room_content button{
+    /* display: flex; */
+    width: 120px;
+    /* margin-top: 30px;  */
+    background-color: #ffffff;
+    /* padding: 15px 0; */
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    transition: all 0.1s;
+}
+
+#book{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#project_info1{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    text-decoration: underline;
+}
+/* end of book rooming page */
